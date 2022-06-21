@@ -1,0 +1,101 @@
+html {
+  font-size: 16px;
+}
+
+/* large screen */
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+ /* Tablet screen  */
+
+@media (max-width: 768px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+/* Mobile screen */
+
+@media (max-width: 450px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+
+* {
+  background-color: #f1f1f1;
+  
+}
+
+
+body {  
+  color: black;
+  font-family: monospace, sans-serif, serif;
+  font-size: 1.2rem;
+  line-height: 1.5
+}
+
+#navbar {
+  position: fixed;
+  height: 100%;
+  width: 13rem;
+  margin-right: 1rem;
+  border-right: black dotted 1px;
+}
+
+#main-doc {
+  width: 30rem;
+  padding-left: 15rem;
+}
+
+header {
+  padding: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: rgb(19, 110, 3);;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(19, 110, 3);
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+}
+
+li {
+  font-style: bold;
+}
+
+p {  
+  margin-left: 15px;
+}
+
+/*.p a {
+  color: red;
+}*/
+
+
+code {
+  background-color: gray;
+  display: block;
+  max-width: 20%;
+  border-radius: 3px;
+  padding: 1px 1px;
+  margin: 1px;
+}
+
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: #f1f1f1;
+  }
+}
+
